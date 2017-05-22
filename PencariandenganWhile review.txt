@@ -1,0 +1,24 @@
+Program Pencarian dengan cara memisah array menjadi dua bagian
+
+baris ke 4 ada "int x[9]" dimana itu adalah variabel berbentuk Array yang memungkinkanya untuk menamung lebih dari 1 data.
+
+lalu di baris selanjutnya dibuatlah beberapa variabel yang akan di gunakan untuk mencari data.
+
+di baris ke 8 program meminta user untuk memasukan data yang ingin di cari.
+
+selanjutnya program mendeklarasikan i mendadi 0, j menjadi 8, dan k adalah i di tambah j lalu di bagi dua dan hasilnya = 4.
+
+lalu perintah "while(i <= j)" yang memerintahkan program untuk mengulang sampai i = j.
+
+lalu ada operasi logika dimana jika user memasukan array x[k(4)] sama dengan "cari", maka eksekusi cout di bawah dan lakukan break (Berhenti)
+
+jika x[k] tidak samadengan "cari" dan x[k] lebih besar dari "cari" maka i akan dideklarasikan menjadi k(4) + 1;
+
+dan bila kedua kondisi di atas tidak ada yang valid atau benar maka eksekusi j di deklarasikan menjadi k(4) - 1;
+
+lalu variabel K akan melakukan operasi kembali dimana i ditambah j lalu dibagi 
+2, dan while akan mengulang kembali perintah sebelumnya sampai i sama dengan j,
+
+setelah i sama dengan j maka nantinya akan menghasilkan data index yang sama dimana contoh i = 8 dan j = 8, maka k = (8+8)/2 = 8 maka data temukan di index ke 8.
+
+tapi bila salah maka while akan berhenti dan tidak menampilkan apapun lalu dibawahnya ada kondisi lagi dimana i akan lebih besar dari j dan menampilkan tulisan "Data Tidak Di Te.mukan"

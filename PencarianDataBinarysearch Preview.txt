@@ -1,0 +1,31 @@
+Review Program pencarian yang di cari di internet (Tanpa For)
+
+Setelah "main()"
+
+program membuat beberapa variabel yaitu i,N, "angka", dan "Bilangan"
+dan "i" di beri data 0.
+
+lalu program meminta user untuk memasukan data yang akan di isikan ke variabel "N"
+
+lalu program membuat variabel array dengan nama "Nilai" dan ukuranya berdasarkan variabel "N"
+
+lalu program melalakukan pengulangan while dimana kondisi akan di ulang selama i lebih kecil dari variabel "N" 
+
+dan didalamnya ada proses mengisi elemen - elemen dalam array Nilai[i] berarti array Nilai dengan index i dimana i akan terus bertambah dari 0.
+setelah itu program akan memunculkan deretan bilangan dan mengisi kembali i menjadi 0 agar tidak mengganggu pengulangan berikutnya.
+
+pengulangan kedua akan memunculkan data dari array Nilai dengan index i dimana i diawal adalah 0 dan akan terus bertambah karena ada perintah i++ (i ditambah 1)
+
+
+lalu program akan meminta user untuk menuliskan data yang di cari dan data tersebut akan di tampung di variabel "bilangan".
+lalu selanjutnya program melakukan pencarian menggunakan do while
+
+pertama program akan mengecek apakah Nilai[i]=="bilangan"
+ (nilai yang di cari?) jika iya maka data di variabel angka akan di isi dengan data di array Nilai dalam index i
+
+bila salah program akan mengulangnya dan menambah i dengan 1 maka selanjutnya array akan berubah menjadi Nilai[1] dan akan membandinganya lagi dengan angka yang di cari, sampai i lebih besar dari N
+
+setelah selesai maka ada kondisi lagi dimana jika data di variabel "angka" sama dengan "bilangan (yang di cari" maka tampilkan "bilangan ditemukan"
+jika tidak terpenuhi maka tampilkan "bilangan tidak ditemukan" 
+
+
